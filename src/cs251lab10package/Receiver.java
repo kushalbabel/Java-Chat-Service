@@ -40,7 +40,7 @@ public class Receiver extends Thread {
                 }
                 else{
                 	           	
-                	System.out.println("<This maessage was sent at: "+received.timestamp+">");
+                	System.out.println("<This message was sent at: "+received.timestamp+">");
         	        System.out.println("[This message was received at:"+ new Timestamp((new Date()).getTime())+"]");
 	            }
             count+=1;
